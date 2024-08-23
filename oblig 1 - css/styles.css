@@ -1,0 +1,166 @@
+body {
+    background-color: white;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    
+}
+
+#home-list {
+    display: flex; /* Makes the list items align horizontally */
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    margin-left: 20px;
+}
+
+#home-list, .home-list-e {
+    margin-right: 20px; /* Adds space between list items */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.top-link {
+    text-decoration: none; /* Removes the underline */
+    color: rgb(255, 255, 255);; /* Optional: Set the link color */
+    font-weight: bold;
+    font-size:large;
+}
+
+a:hover {
+    color: rgb(255, 217, 0);
+    font-size: larger;
+}
+
+.normal-title {
+    margin: 40px 40px 40px 40px;
+}
+
+#top-title {
+    margin: 10px 20px 10px 20px;
+}
+
+.topbar {
+    background-color: rgb(160, 215, 254); /* Dark background color */
+    background-image: url('/pictures/petter-smart.jpg'); /* Path to your image */
+    background-size: 24%; /* Ensure the image covers the entire header area */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white; /* White text */
+    display: flex; /* Flexbox layout for horizontal alignment */
+    justify-content: space-between; /* Space between logo and other items */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding inside the top bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    border-radius: 2cqmin;
+    border: 2px solid black;
+}
+
+p {
+    margin: 20px 20px 0px 40px;
+    font-size: large;
+}
+
+.home-div {
+    border: 3px solid rgb(255, 255, 255); /* 2px wide, solid white border */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0)), /* Grey overlay with 50% opacity */
+        url('pictures/petter-smart-2.jpg'); /* Path to your image */
+    background-size: 25%;
+    padding-bottom: 700px;
+    padding-top: 1px;
+    color: aliceblue;
+}
+
+.oppfinnelser-div {
+    border: 3px solid rgb(255, 255, 255); /* 2px wide, solid white border */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0)), /* Grey overlay with 50% opacity */
+        url('pictures/petter-smart-3.jpg'); /* Path to your image */
+    background-size: 100%;
+    padding-bottom: 700px;
+    padding-top: 1px;
+    color: aliceblue;
+}
+
+.invention {
+    background: rgba(0, 0, 0, 0.637); /* White background for the invention div */
+    border: 2px solid white; /* White border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    overflow: hidden; /* Hide overflowing content */
+    max-width: 400px; /* Max width of the div */
+    margin: 20px auto; /* Centered with margin */
+    padding: 20px; /* Padding inside the div */
+    text-align: center; /* Center text */
+}
+
+.invention h2 {
+    margin-top: 10px; /* Space above the title */
+    color: #333; /* Dark color for the title */
+}
+
+.invention p {
+    color: #666; /* Light gray color for the description */
+    line-height: 1.6; /* Line height for readability */
+}
+
+.kontaktinfo-div {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.322)), /* Grey overlay with 50% opacity */
+        url('pictures/petter-smart-2.jpg'); /* Path to your image */
+    background-size: 50%;
+}
+
+.contact-info {
+    margin: 20px auto;
+    width: 60%;
+    background-color: rgba(160, 215, 254, 0.966); /* White background for the table */
+    border-radius: 8px; /* Rounded corners */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.829), rgb(0, 0, 0)), /* Grey overlay with 50% opacity */;
+    border: 2px solid black;
+}
+
+.contact-info h1 p {
+color: #333;
+padding: 12px;
+}
+
+/* Table styling specific to opening hours */
+.opening-hours {
+    margin: 20px auto;
+    width: 50%; /* Adjust width as needed */
+    background-color: rgba(160, 215, 254, 0.966); /* White background for the table */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding around the table */
+    border: 2px solid black;
+}
+
+.opening-hours table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders to avoid double borders */
+}
+
+.opening-hours th, .opening-hours td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+.opening-hours th {
+    background-color: #4176d8; /* Dark background color for headers */
+    color: #fff; /* White text color */
+    font-weight: bold; /* Bold text for headers */
+}
+
+.opening-hours tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for even rows */
+}
+
+.opening-hours tr:hover {
+    background-color: #666666; /* Highlight row on hover */
+}
+
+
